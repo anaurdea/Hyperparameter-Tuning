@@ -1,5 +1,8 @@
 # Machine Learning Model Training and Evaluation Pipeline
 
+[![DOI](https://zenodo.org/badge/971428215.svg)](https://doi.org/10.5281/zenodo.15270002)
+
+
 This Python script performs a machine learning pipeline for classifying a binary outcome ('fail') based on sensor data. It includes data loading, exploration, model training (Logistic Regression, KNN, Random Forest), evaluation, result saving, and integration with a remote data repository (DBRepo).
 
 Data Source: https://test.dbrepo.tuwien.ac.at/database/7f109eb4-a337-422e-9b22-f43b7f2a4cf6/info DOI: 10.82556/cdht-0x47
