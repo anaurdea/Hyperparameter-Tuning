@@ -86,9 +86,10 @@ This section compares model performance and saves the results.
 
 This section uploads the generated result files and the trained winning model to the DBRepo.
 
-- The base URL for the DBRepo API is defined.
+- The base URL for the API is defined.
 - The access token is retrieved from an environment variable.
 - A dictionary of files to upload is created.
-- Each file is uploaded to the DBRepo using the `client.upload_file()` function, associated with the specified identifier.
+- Each file is uploaded to the Repo using the `client.upload_file()` function, associated with the specified identifier.
 - A success message is printed.
+- More details on the API calls can be found in the official documentation: https://researchdata.tuwien.ac.at/tuw/about/api
 
