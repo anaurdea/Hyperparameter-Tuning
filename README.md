@@ -5,15 +5,14 @@
 
 This Python script performs a machine learning pipeline for classifying a binary outcome ('fail') based on sensor data. It includes data loading, exploration, model training (Logistic Regression, KNN, Random Forest), evaluation, result saving, and integration with a remote data repository (DBRepo).
 
-Input Data Source: https://test.dbrepo.tuwien.ac.at/database/7f109eb4-a337-422e-9b22-f43b7f2a4cf6/info
-
+The already splitted data (train-validation-test) was retrieved from the DBRepo: https://test.dbrepo.tuwien.ac.at/database/7f109eb4-a337-422e-9b22-f43b7f2a4cf6/subset
 Identifieres of each subset:
 
-Train: https://handle.test.datacite.org/10.82556/d81q-jc28
+Train: https://handle.test.datacite.org/10.82556/d81q-jc28
 
 Validation: https://handle.test.datacite.org/10.82556/azm3-kr44
 
-Test: https://handle.test.datacite.org/10.82556/mmbk-7097
+Test: https://handle.test.datacite.org/10.82556/mmbk-7097
 
 Full Dataset: https://handle.test.datacite.org/10.82556/exht-bk06
 
