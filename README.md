@@ -5,9 +5,21 @@
 
 This Python script performs a machine learning pipeline for classifying a binary outcome ('fail') based on sensor data. It includes data loading, exploration, model training (Logistic Regression, KNN, Random Forest), evaluation, result saving, and integration with a remote data repository (DBRepo).
 
-Data Source: https://test.dbrepo.tuwien.ac.at/database/7f109eb4-a337-422e-9b22-f43b7f2a4cf6/info DOI: 10.82556/cdht-0x47
+Input Data Source: https://test.dbrepo.tuwien.ac.at/database/7f109eb4-a337-422e-9b22-f43b7f2a4cf6/info
 
-Output available at: https://test.researchdata.tuwien.ac.at/records/j3pt9-shg53 DOI: 10.70124/j3pt9-shg53.svg
+Identifieres of each subset:
+
+Train: https://handle.test.datacite.org/10.82556/d81q-jc28
+
+Validation: https://handle.test.datacite.org/10.82556/azm3-kr44
+
+Test: https://handle.test.datacite.org/10.82556/mmbk-7097
+
+Full Dataset: https://handle.test.datacite.org/10.82556/exht-bk06
+
+Output available at: https://test.researchdata.tuwien.ac.at/records/j3pt9-shg53 DOI: https://handle.test.datacite.org/10.70124/j3pt9-shg53.svg
+
+Output Identifier: https://handle.test.datacite.org/10.70124/j3pt9-shg53
 
 ## Environment Variables
 
@@ -17,6 +29,8 @@ The script requires the following environment variables to be set:
 - `DBREPO_PASSWORD`: DBRepo password.
 - `DBREPO_TOKEN`: TUWRD Test Instance API access token.
 
+So in order to reproduce the experiment, one needs both a DBRepo user as well as a TUWRD user. After the successfull creation of the TUWRD user, one needs to generate an access token (Settings -> Profile -> Applications -> Personal Acess Token)
+
 ## Dependencies
 
 The necessary libraries are listed in `requirements.txt`. Please install them using `pip install -r requirements.txt`.
@@ -25,7 +39,7 @@ The necessary libraries are listed in `requirements.txt`. Please install them us
 
 1.  **Install Dependencies:** Install the required libraries using `pip install -r requirements.txt`. Ensure the `dbrepo` library is also installed and configured.
 2.  **Set Environment Variables:** Set the `DBREPO_USER`, `DBREPO_PASSWORD`, and `DBREPO_TOKEN` environment variables.
-3.  **Run the Script:** Execute the Python script.
+3.  **Run the Script:** Execute the Python script (The notebook was created with Anaconda, but any other Jupyter Environment would suffice).
 
 The script will perform the machine learning pipeline, save results locally, and upload them to the DBRepo.
 ## 0. Imports
