@@ -16,7 +16,7 @@ Test: https://handle.test.datacite.org/10.82556/mmbk-7097
 
 Full Dataset: https://handle.test.datacite.org/10.82556/exht-bk06
 
-Output available at: https://test.researchdata.tuwien.ac.at/records/j3pt9-shg53 DOI: https://handle.test.datacite.org/10.70124/j3pt9-shg53.svg
+Output available at: https://test.researchdata.tuwien.ac.at/records/j3pt9-shg53
 
 Output Identifier: https://handle.test.datacite.org/10.70124/j3pt9-shg53
 
