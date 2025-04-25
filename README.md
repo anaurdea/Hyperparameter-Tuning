@@ -1,3 +1,18 @@
+# Description of the input data:
+
+The primary data for this project, accessed from the DBRepo (train, validation, and test subsets), is a sensor dataset intended for machine failure prediction. Each instance in the dataset represents a machine, and the data includes a variety of sensor readings and a binary target variable ('fail', where 1 indicates a failure and 0 indicates no failure). These datasets are loaded into Pandas DataFrames for analysis, with the following key columns:
+•	footfall: The count of passing entities near the machine.
+•	tempMode: The machine's temperature mode.
+•	AQ: Air quality index in the vicinity.
+•	USS: Proximity measurements from an ultrasonic sensor.
+•	CS: Electrical current usage of the machine.
+•	VOC: Level of volatile organic compounds detected.
+•	RP: Rotational speed of machine parts (RPM).
+•	IP: Pressure input to the machine.
+•	Temperature: The machine's operating temperature.
+•	fail: The binary target variable indicating machine failure.
+
+
 # Machine Learning Model Training and Evaluation Pipeline
 
 [![DOI](https://zenodo.org/badge/971428215.svg)](https://doi.org/10.5281/zenodo.15270002)
